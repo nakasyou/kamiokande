@@ -5,6 +5,6 @@ const app = new Hono()
 
 app.get('/realtime', async ctx => {
   //app.header("Access-Control-Allow-Origin", "*")
-  return await fetch("https://google.com")
+  return await fetch("https://www-sk.icrr.u-tokyo.ac.jp/realtimemonitor/skev.gif")
 })
 serve(app.fetch)
