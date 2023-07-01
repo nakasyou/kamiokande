@@ -143,6 +143,7 @@ function init3d() {
       const z = (iy-24)/24 *500;
       mesh.position.x = x * Math.cos(rotateBaseTop) - z * Math.sin(rotateBaseTop);
       mesh.position.z = x * Math.sin(rotateBaseTop) + z * Math.cos(rotateBaseTop);
+      mesh.position.y = 51 * 28;
       sensors3d.add(mesh);
       sensorsY.push(mesh);
     }
@@ -157,7 +158,6 @@ function init3d() {
       const z = (iy-24)/24 *500;
       mesh.position.x = x * Math.cos(rotateBaseBottom) - z * Math.sin(rotateBaseBottom);
       mesh.position.z = x * Math.sin(rotateBaseBottom) + z * Math.cos(rotateBaseBottom);
-      mesh.position.y = 51 * 28;
       sensors3d.add(mesh);
       sensorsY.push(mesh);
     }
