@@ -126,7 +126,7 @@ function init3d() {
       const rotate = deg2rad(ix/150*360);
       mesh.position.x = Math.cos(rotate) * 500;
       mesh.position.z = Math.sin(rotate) * 500;
-      mesh.position.y = iy * 28;
+      mesh.position.y = 51*28 - iy * 28;
       sensors3d.add(mesh);
       sensorsY.push(mesh);
     }
