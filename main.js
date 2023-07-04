@@ -65,7 +65,7 @@ function getBaseData(imageData, basex, basey) {
   return result;
 }
 const deg2rad = (deg) => deg * (Math.PI / 180);
-const url = document.getElementById("url").textContent;
+//const url = document.getElementById("url").textContent;
 
 const $lastUpdate = document.getElementById("last-update");
 
